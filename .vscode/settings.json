@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  // Controls the font size in pixels.
+  "editor.fontSize": 14
+}
