@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.2cce8147.chunk.css",
-    "main.js": "/website/static/js/main.91d43f7b.chunk.js",
-    "main.js.map": "/website/static/js/main.91d43f7b.chunk.js.map",
+    "main.css": "/website/static/css/main.ff685c11.chunk.css",
+    "main.js": "/website/static/js/main.a889aefb.chunk.js",
+    "main.js.map": "/website/static/js/main.a889aefb.chunk.js.map",
     "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
     "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
-    "static/js/2.b41502e9.chunk.js": "/website/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/website/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.a9751adc.chunk.js": "/website/static/js/2.a9751adc.chunk.js",
+    "static/js/2.a9751adc.chunk.js.map": "/website/static/js/2.a9751adc.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.57f2cf5370d6e2804e20b5c878ebdc18.js": "/website/precache-manifest.57f2cf5370d6e2804e20b5c878ebdc18.js",
+    "precache-manifest.e550999236e22a7e8b63ab89c277f097.js": "/website/precache-manifest.e550999236e22a7e8b63ab89c277f097.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/website/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/website/static/media/logo.5d5d9eef.svg"
+    "static/css/main.ff685c11.chunk.css.map": "/website/static/css/main.ff685c11.chunk.css.map",
+    "static/media/Sedan-MT.jpg": "/website/static/media/Sedan-MT.89f8ec6e.jpg",
+    "static/media/styles.css": "/website/static/media/wallpaperLight.ff282e32.png"
   }
 }
