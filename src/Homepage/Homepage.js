@@ -33,37 +33,37 @@ function Homepage() {
         <img
           src={SedanMT}
           alt="Sedan, Montana"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
         <img
           src={BigHorn}
           alt="Yellowstone National Park, Wyoming"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
         <img
           src={BuckElkRMNP}
           alt="Buck Elk in Rocky Mountain National Park, CO"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
         <img
           src={Chipmunk}
           alt="Chipmonk 1"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
         <img
           src={Chipmunk2}
           alt="Chipmonk 2"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
         <img
           src={ChipmunkRMNP}
           alt="Chipmonk Rocky Mountain National Park, CO"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
         <img
           src={BuckElkYNP}
           alt="Buck Elk in Yellowston National Park, Wyoming"
-          data-action="http://andyyou.github.io/react-coverflow/"
+          data-action="http://timparrish.github.io/website"
         />
       </Coverflow>
       <Heading>Welcome to my first deployed React App!</Heading>
