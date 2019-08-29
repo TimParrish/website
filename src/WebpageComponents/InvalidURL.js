@@ -1,7 +1,7 @@
 import React from "react";
 import { Heading } from "styles";
 
-function Error() {
+function InvalidURL() {
   return (
     <>
       <Heading>Invalid URL, redirecting to the home page</Heading>
@@ -9,4 +9,4 @@ function Error() {
   );
 }
 
-export default Error;
+export default InvalidURL;

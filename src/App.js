@@ -1,10 +1,7 @@
 import React from "react";
-import { HomepageContainer } from "./Homepage";
+import { Homepage, Blackjack, InvalidURL, NavBar } from "./WebpageComponents";
 import "./styles/styles.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Blackjack from "./Blackjack";
-import Error from "./Error";
-import NavBar from "./NavBar";
 
 document.title = "www.TimothyParrish.com";
 
@@ -13,9 +10,9 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route path="/website/" component={HomepageContainer} exact />
+        <Route path="/website/" component={Homepage} exact />
         <Route path="/website/blackjack" component={Blackjack} />
-        <Route component={Error} />
+        <Route component={InvalidURL} />
       </Switch>
     </BrowserRouter>
   );
