@@ -1,11 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { StyledLink, NavBarContainer } from "styles";
 
 function NavBar() {
   return (
     <>
-      <NavLink to="/website/">HomePage</NavLink>
-      <NavLink to="/website/blackjack">Blackjack</NavLink>
+      <NavBarContainer>
+        <StyledLink type="first" to="/website/">
+          HomePage
+        </StyledLink>
+        <StyledLink to="/website/blackjack">Blackjack</StyledLink>
+        <StyledLink type="last" to="/website/about">
+          About Me
+        </StyledLink>
+      </NavBarContainer>
     </>
   );
 }
