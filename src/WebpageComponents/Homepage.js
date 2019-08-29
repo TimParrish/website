@@ -8,14 +8,14 @@ import {
   Chipmunk2,
   ChipmunkRMNP,
   MarmutRMNP,
-  OldTruckJacksonCreek,
-  WaterfallGrandCanyonYellowstone,
-  CentralMontana,
-  CentralMontana2,
-  CentralMontana3,
-  CentralMontana4,
-  CentralMontana5,
-  CentralMontana6
+  OldTruckJacksonCreek
+  // WaterfallGrandCanyonYellowstone,
+  // CentralMontana,
+  // CentralMontana2,
+  // CentralMontana3,
+  // CentralMontana4,
+  // CentralMontana5,
+  // CentralMontana6
 } from "images";
 import { Heading, CenteredP } from "styles";
 import Coverflow from "react-coverflow";

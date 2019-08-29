@@ -4,7 +4,7 @@ import { Heading } from "styles";
 function Blackjack() {
   return (
     <>
-      <Heading>Hello there this is the home of about me!</Heading>
+      <Heading>Hello there this is the future home of about me!</Heading>
     </>
   );
 }

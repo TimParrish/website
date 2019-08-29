@@ -11,7 +11,6 @@ export const StyledLink = styled(NavLink)`
   display: block;
   padding: 10px 34px;
   transition: all 1s linear;
-  border-right: 1px solid #ccc;
   box-shadow: inset 0px 0px 30px #888;
   border-right: ${({ type }) => (type === "last" ? "0" : "1px solid #ccc")};
   border-radius: ${({ type }) =>
