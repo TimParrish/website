@@ -1,11 +1,22 @@
 import React from "react";
-import SedanMT from "images/Sedan-MT.jpg";
-import BigHorn from "images/bigHornSheep.jpg";
-import BuckElkRMNP from "images/buckElkRMNP.jpg";
-import BuckElkYNP from "images/buckElkYNP.jpg";
-import Chipmunk from "images/chipmunk.jpg";
-import Chipmunk2 from "images/chipmunk2.jpg";
-import ChipmunkRMNP from "images/chipmunkRMNP.jpg";
+import {
+  SedanMT,
+  BigHorn,
+  BuckElkRMNP,
+  BuckElkYNP,
+  Chipmunk,
+  Chipmunk2,
+  ChipmunkRMNP,
+  MarmutRMNP,
+  OldTruckJacksonCreek,
+  WaterfallGrandCanyonYellowstone,
+  CentralMontana,
+  CentralMontana2,
+  CentralMontana3,
+  CentralMontana4,
+  CentralMontana5,
+  CentralMontana6
+} from "images";
 import { Heading, CenteredP } from "styles";
 import Coverflow from "react-coverflow";
 import { StyleRoot } from "radium";
@@ -67,12 +78,59 @@ function Homepage() {
             alt="Buck Elk in Yellowston National Park, Wyoming"
             data-action="http://timparrish.github.io/website"
           />
+          <img
+            src={MarmutRMNP}
+            alt="Marmut Rocky Mountain National Park, CO"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={OldTruckJacksonCreek}
+            alt="Old truck in Jackson Creek, MT"
+            data-action="http://timparrish.github.io/website"
+          />
+          {/* <img
+            src={WaterfallGrandCanyonYellowstone}
+            alt="Waterfall in the Grand Canyon of Yellowstone National Park, WY"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={CentralMontana}
+            alt="Central Montana"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={CentralMontana2}
+            alt="Central Montana"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={CentralMontana3}
+            alt="Central Montana"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={CentralMontana4}
+            alt="Central Montana"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={CentralMontana5}
+            alt="Central Montana"
+            data-action="http://timparrish.github.io/website"
+          />
+          <img
+            src={CentralMontana6}
+            alt="Central Montana"
+            data-action="http://timparrish.github.io/website"
+          /> */}
         </Coverflow>
         <Heading>Welcome to my first deployed React App!</Heading>
         <CenteredP>
           This is still a work in progress but will eventually replace the
           static site that can be found at{" "}
-          <a href="http://www.timothyparrish.com">www.timothyparrish.com</a>
+          <a href="https://timparrish.github.io/legacy_website/index.html">
+            https://timparrish.github.io/legacy_website/index.html
+          </a>
         </CenteredP>
       </StyleRoot>
     </>
