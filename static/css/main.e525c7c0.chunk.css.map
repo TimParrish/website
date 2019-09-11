@@ -1,0 +1,1 @@
+{"version":3,"sources":["globalStyle.css"],"names":[],"mappings":"AAAA,KACE,uEAAqD,CAErD,YAAa,CACb,aACF","file":"main.e525c7c0.chunk.css","sourcesContent":["body {\n  background-image: url(\"../images/wallpaperLight.png\");\n  /* Background pattern from subtlepatterns.com */\n  width: 1000px;\n  margin: 0px auto;\n}\n"]}
