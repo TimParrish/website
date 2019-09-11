@@ -18,13 +18,27 @@ import {
   // CentralMontana6
 } from "images";
 import { Heading, CenteredP } from "styles";
-import Coverflow from "react-coverflow";
-import { StyleRoot } from "radium";
+import ImageGallery from "react-image-gallery";
+
+const images = [
+  {
+    original: "https://picsum.photos/id/1018/1000/600/",
+    thumbnail: "https://picsum.photos/id/1018/250/150/"
+  },
+  {
+    original: "https://picsum.photos/id/1015/1000/600/",
+    thumbnail: "https://picsum.photos/id/1015/250/150/"
+  },
+  {
+    original: "https://picsum.photos/id/1019/1000/600/",
+    thumbnail: "https://picsum.photos/id/1019/250/150/"
+  }
+];
 
 function Homepage() {
   return (
     <>
-      <StyleRoot>
+      {/* <StyleRoot>
         <Coverflow
           displayQuantityOfSide={1}
           enableScroll
@@ -87,8 +101,8 @@ function Homepage() {
             src={OldTruckJacksonCreek}
             alt="Old truck in Jackson Creek, MT"
             data-action="http://timparrish.github.io/website"
-          />
-          {/* <img
+          /> */}
+      {/* <img
             src={WaterfallGrandCanyonYellowstone}
             alt="Waterfall in the Grand Canyon of Yellowstone National Park, WY"
             data-action="http://timparrish.github.io/website"
@@ -123,16 +137,17 @@ function Homepage() {
             alt="Central Montana"
             data-action="http://timparrish.github.io/website"
           /> */}
-        </Coverflow>
-        <Heading>Welcome to my first deployed React App!</Heading>
-        <CenteredP>
-          This is still a work in progress but will eventually replace the
-          static site that can be found at{" "}
-          <a href="https://timparrish.github.io/legacy_website/index.html">
-            https://timparrish.github.io/legacy_website/index.html
-          </a>
-        </CenteredP>
-      </StyleRoot>
+      {/* </Coverflow> */}
+      <Heading>Welcome to my first deployed React App!</Heading>
+      <ImageGallery items={images} />
+
+      <CenteredP>
+        This is still a work in progress but will eventually replace the static
+        site that can be found at{" "}
+        <a href="https://timparrish.github.io/legacy_website/index.html">
+          https://timparrish.github.io/legacy_website/index.html
+        </a>
+      </CenteredP>
     </>
   );
 }
