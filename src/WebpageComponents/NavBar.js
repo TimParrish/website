@@ -8,7 +8,7 @@ function NavBar() {
         <StyledLink type="first" to="/website/">
           HomePage
         </StyledLink>
-        <StyledLink to="/website/blackjack">Blackjack</StyledLink>
+        <StyledLink to="/website/weather">Weather</StyledLink>
         <StyledLink type="last" to="/website/about">
           About Me
         </StyledLink>

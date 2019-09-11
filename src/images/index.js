@@ -17,3 +17,4 @@ export { default as CentralMontana4 } from "./centralMontana4.jpg";
 export { default as CentralMontana5 } from "./centralMontana5.jpg";
 export { default as CentralMontana6 } from "./centralMontana6.jpg";
 export { default as Wallpaper } from "./wallpaperLight.png";
+export { default as Octocat } from "./Octocat.png";
