@@ -4,7 +4,7 @@ import { Octocat } from "images";
 import axios from "axios";
 import styled from "styled-components";
 import getYear from "date-fns/getYear";
-import { Image, Button } from "react-bootstrap";
+import { Image, Button, Table } from "react-bootstrap";
 
 const BioDiv = styled.div`
 height: 400px;
@@ -93,6 +93,35 @@ function About() {
       </BioDiv>
 
       <GitHubDiv>
+      <Table striped bordered hover variant="dark">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td colSpan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</Table>
         For the user {gitHubUserName}, {numPublicRepos} public repos were found.
         latestCommit was {latestCommit}, date joined: {gitHubYearJoined}, URL:{" "}
         {gitHubURL}
