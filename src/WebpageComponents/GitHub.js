@@ -16,6 +16,9 @@ const BioDiv = styled.div`
   height: 80px;
   width: 600px;
   margin: auto;
+  p {
+    text-transform: underline;
+  }
 `;
 const GitHubDiv = styled.div`
   height: 335px;
@@ -94,7 +97,7 @@ function About() {
         </p>
       </BioDiv>
 
-      <Formik
+      {/* <Formik
         gitHubUserName={gitHubUserName}
         initialValues={{ name: `${gitHubUserName}` }}
         onSubmit={(values, actions) => {
@@ -119,20 +122,15 @@ function About() {
             <button type="submit">Submit</button>
           </form>
         )}
-      />
+      /> */}
 
       {console.log(`outside formik: username is: ${gitHubUserName}`)}
 
       <GitHubDiv>
-        <h3>GitHub RESTful API results</h3>
+        <h3>GitHub RESTful API results:</h3>
 
         <Table striped bordered hover size="sm" variant="dark">
-          <thead>
-            {/* <tr>
-              <th>#</th>
-              <th>GitHub username</th>
-            </tr> */}
-          </thead>
+          <thead></thead>
           <tbody>
             <tr>
               <td>Github Username</td>
@@ -157,13 +155,13 @@ function About() {
             <tr>
               <td>Profile URL</td>
               <td>
-                {/* <a
-                  href="`{gitHubURL}`"
+                <a
+                  href="https://github.com/TimParrish/"
                   target="_blank"
                   rel="noopener noreferrer"
-                > */}
-                {gitHubURL}
-                {/* </a> */}
+                >
+                  {gitHubURL}
+                </a>
               </td>
             </tr>
           </tbody>

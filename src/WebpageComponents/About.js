@@ -11,7 +11,7 @@ const BioDiv = styled.div`
 function About() {
   return (
     <>
-      <Heading>Hello here is a little about me!</Heading>
+      <Heading>Hello! Here is a little about me!</Heading>
 
       <BioDiv>
         <p>
@@ -23,7 +23,6 @@ function About() {
           back-end of computer programming. I particularly enjoy putting myself
           in the shoes of the end-user as I develop and test my code.
         </p>
-
         <p>
           Working with home automation first sparked my interest in programming
           and I have studied a broad range of disciplines including CISCO
@@ -34,11 +33,27 @@ function About() {
           during my past career with the Geek Squad and am now applying those
           skills to Computer Science.
         </p>
-
         <p>
           Some side-projects that I have done to further my knowledge are listed
-          in my portfolio. https://timothyparrish.com/ You can also see more of
-          my work on my GitHub page. https://github.com/TimParrish/
+          in my portfolio and on my GitHub page.
+        </p>
+        <p>
+          <a
+            href="https://timothyparrish.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Portfolio
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/TimParrish/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Profile
+          </a>
         </p>
       </BioDiv>
     </>

@@ -3,7 +3,7 @@ import { Homepage, GitHub, NavBar, AboutMe } from "./WebpageComponents";
 import "./styles/globalStyle.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-document.title = "www.TimothyParrish.com";
+document.title = "Tim Parrish";
 
 function App() {
   return (
