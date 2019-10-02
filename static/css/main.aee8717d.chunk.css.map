@@ -1,0 +1,1 @@
+{"version":3,"sources":["globalStyle.css"],"names":[],"mappings":"AAAA,KACE,wEAAsD,CAEtD,YAAa,CACb,aACF","file":"main.aee8717d.chunk.css","sourcesContent":["body {\n  background-image: url(\"../images/tweed_wallpaper.png\");\n  /* Background pattern from subtlepatterns.com */\n  width: 1000px;\n  margin: 0px auto;\n}\n"]}
