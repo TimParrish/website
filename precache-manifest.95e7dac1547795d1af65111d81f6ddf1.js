@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4aabe23c864946b87856a1a094c3b59f",
+    "revision": "1c36af1bf3d4605295652f048f29447c",
     "url": "/website/index.html"
   },
   {
-    "revision": "1e77cfccab5b6b246567",
-    "url": "/website/static/css/main.e525c7c0.chunk.css"
+    "revision": "642f4c30d1a1a7c6fc91",
+    "url": "/website/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "7f7fbacd937815f6a9ee",
-    "url": "/website/static/js/2.2be85f3c.chunk.js"
+    "revision": "895b61056ec42b906cf1",
+    "url": "/website/static/css/main.c1d0b3f2.chunk.css"
   },
   {
-    "revision": "1e77cfccab5b6b246567",
-    "url": "/website/static/js/main.cd21c574.chunk.js"
+    "revision": "642f4c30d1a1a7c6fc91",
+    "url": "/website/static/js/2.166f1ddc.chunk.js"
+  },
+  {
+    "revision": "895b61056ec42b906cf1",
+    "url": "/website/static/js/main.48b78ebe.chunk.js"
   },
   {
     "revision": "93e61feb60cb81cabd64",
@@ -84,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/oldTruckJacksonCreek.baf6b5fa.jpg"
   },
   {
-    "revision": "ff282e3222d2ce092918b21de092d790",
-    "url": "/website/static/media/wallpaperLight.ff282e32.png"
+    "revision": "bad0790cb8056ba469fddfeeb0ca7e6b",
+    "url": "/website/static/media/tweed_wallpaper.bad0790c.png"
   },
   {
     "revision": "8b46b301a7ec5a3de1035fd7cda5e9ff",
