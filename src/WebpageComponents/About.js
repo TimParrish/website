@@ -2,10 +2,37 @@ import React from "react";
 import { Heading } from "styles";
 import styled from "styled-components";
 
+const LinksContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 25px auto 25px auto;
+  width: 700px;
+  height: 38px;
+  padding: 0px;
+`;
+
+const Link = styled.div`
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: darkblue;
+    display: block;
+    padding: 10px 34px;
+    background-color: grey;
+    float: left;
+    width: 60 px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+`;
 const BioDiv = styled.div`
   height: 400px;
   width: 600px;
   margin: auto;
+  p {
+    color: black;
+  }
 `;
 
 function About() {
@@ -37,7 +64,9 @@ function About() {
           Some side-projects that I have done to further my knowledge are listed
           in my portfolio and on my GitHub page.
         </p>
-        <p>
+      </BioDiv>
+      <LinksContainer>
+        <Link>
           <a
             href="https://timothyparrish.com/"
             target="_blank"
@@ -45,8 +74,8 @@ function About() {
           >
             Portfolio
           </a>
-        </p>
-        <p>
+        </Link>
+        <Link>
           <a
             href="https://github.com/TimParrish/"
             target="_blank"
@@ -54,8 +83,8 @@ function About() {
           >
             GitHub Profile
           </a>
-        </p>
-      </BioDiv>
+        </Link>
+      </LinksContainer>
     </>
   );
 }

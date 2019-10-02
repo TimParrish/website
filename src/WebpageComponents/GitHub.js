@@ -18,6 +18,7 @@ const BioDiv = styled.div`
   margin: auto;
   p {
     text-transform: underline;
+    color: black;
   }
 `;
 const GitHubDiv = styled.div`
@@ -29,6 +30,7 @@ const GitHubDiv = styled.div`
   border-radius: 25px;
   h3 {
     text-align: center;
+    color: black;
   }
 `;
 
